@@ -1,0 +1,105 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  background: #121214;
+  background-image: url("./img/bg.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+header > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding: 10px;
+  overflow: hidden;
+}
+
+header img {
+  max-width: 110px;
+  max-height: 110px;
+  border-radius: 50%;
+}
+
+main {
+  max-width: 580px;
+  width: 90%;
+  margin: auto;
+}
+section {
+  background-image: linear-gradient(
+    90deg,
+    #9572fc 0%,
+    #43e7ad 50.52%,
+    #e2d45c 100%
+  );
+  border-radius: 10px;
+  padding-top: 4px;
+}
+section > div {
+  padding: 32px;
+  padding-top: 24px;
+  background-color: #2a2634;
+  margin-bottom: 24px;
+  border-radius: 8px;
+  line-height: 160%;
+}
+
+section h2 {
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+  letter-spacing: -0.47px;
+}
+
+section p {
+  color: #a1a1aa;
+  letter-spacing: -0.18px;
+  font-family: "Inter", sans-serif;
+}
+
+section ul {
+  display: flex;
+  gap: 16px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+
+.games_list img {
+  max-width: 90px;
+  border-radius: 8px;
+}
+
+.channels_list li {
+  border: 1px solid #443e54;
+  max-width: 70px;
+  max-height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.channels_list img {
+  max-width: 70px;
+  max-height: 70px;
+  border-radius: 50%;
+}
