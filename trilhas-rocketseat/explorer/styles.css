@@ -14,32 +14,26 @@ body {
 }
 
 header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   margin-top: 32px;
-  margin-bottom: 32px;
+  height: calc(120px + 32px);
 }
+
 header > div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  max-width: 120px;
+  margin: auto;
   background-image: linear-gradient(
     90deg,
     #9572fc 0%,
     #43e7ad 50.52%,
     #e2d45c 100%
   );
-  width: 120px;
-  height: 120px;
   border-radius: 50%;
-  padding: 10px;
-  overflow: hidden;
+  display: flex;
+  padding: 4px;
 }
 
 header img {
-  max-width: 110px;
-  max-height: 110px;
+  width: 100%;
   border-radius: 50%;
 }
 
@@ -102,4 +96,42 @@ section ul {
   max-width: 70px;
   max-height: 70px;
   border-radius: 50%;
+}
+
+header div{
+  animation: toDown 0.3s 0.3s backwards;
+}
+main section{
+  animation: toRigth 0.4s backwards;
+}
+
+main section:nth-child(1){
+  animation-delay: 0s;
+}
+main section:nth-child(2){
+  animation-delay: 0.3s;
+}
+main section:nth-child(3){
+  animation-delay: 0.5s;
+}
+
+@keyframes toDown {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+@keyframes toRigth {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0px)
+  }
 }

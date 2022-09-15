@@ -1,0 +1,20 @@
+{
+  "name": "rocketseat-nlw",
+  "version": "1.0.0",
+  "description": "Projeto do universo de games - ROCKETSEAT NLW",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesleyDRC/rocketseat-nlw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WesleyDRC/rocketseat-nlw/issues"
+  },
+  "homepage": "https://github.com/WesleyDRC/rocketseat-nlw#readme"
+}
