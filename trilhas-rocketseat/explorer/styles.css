@@ -100,6 +100,17 @@ section ul {
 
 header div{
   animation: toDown 0.3s 0.3s backwards;
+  transition: transform 0.3s;
+}
+header div:hover {
+  transform: scale(1.1);
+}
+
+section ul li{
+  transition: transform 0.3s;
+}
+section ul li:hover {
+  transform: scale(1.1);
 }
 main section{
   animation: toRigth 0.4s backwards;
